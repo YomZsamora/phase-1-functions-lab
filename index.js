@@ -1,3 +1,4 @@
+
 const scuberHeadquarters = 42;
 
 // Returns a distance in blocks and also calculates distances below 42nd street
