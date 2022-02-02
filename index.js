@@ -11,3 +11,9 @@ function distanceFromHqInFeet(pickUpLocation) {
 	let distanceInBlocks = distanceFromHqInBlocks(pickUpLocation);
 	return distanceInBlocks*264;
 }
+
+// Calculates the number of feet a passenger travels given a starting block and an ending block
+function distanceTravelledInFeet(startingBlock, endingBlock) {
+	let distanceTravelled = endingBlock > startingBlock ? (endingBlock - startingBlock)*264 : (startingBlock - endingBlock)*264;
+	return distanceTravelled;
+}
